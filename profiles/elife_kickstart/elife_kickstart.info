@@ -77,7 +77,3 @@ php_memory_limit = 128M
 
 ; Install deploy_content module
 dependencies[] = elife_deploy_content
-
-
-; Install controller module
-dependencies[] = elife_controller
