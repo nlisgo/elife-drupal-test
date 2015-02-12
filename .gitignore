@@ -4,3 +4,7 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+sites/all/tests/behat/behat.local.yml
+sites/all/tests/behat/bin
+sites/all/tests/behat/composer.lock
+sites/all/tests/behat/vendor
