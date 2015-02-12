@@ -2,4 +2,4 @@ name = "eLife Controller"
 description = "Controller module to handle enabling/disabling of modules and reverting features amongst other things"
 core = 7.x
 package = eLife
-
+dependencies[] = elife_features_roles
