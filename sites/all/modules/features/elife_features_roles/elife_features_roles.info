@@ -1,0 +1,17 @@
+name = eLife Features - Roles and Permissions
+core = 7.x
+package = eLife Features
+version = 7.x-1.0
+project = elife_features_roles
+dependencies[] = features
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = access content overview
+features[user_permission][] = administer nodes
+features[user_permission][] = create page content
+features[user_permission][] = delete any page content
+features[user_permission][] = delete own page content
+features[user_permission][] = edit any page content
+features[user_permission][] = edit own page content
+features[user_role][] = editor
+project path = sites/all/modules/features/elife_features
