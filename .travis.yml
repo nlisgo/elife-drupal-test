@@ -8,6 +8,11 @@ mysql:
   username: root
   encoding: utf8
 
+# whitelist
+branches:
+  only:
+    - master
+
 install:
   - sudo apt-get update > /dev/null
 
