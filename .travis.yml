@@ -12,7 +12,7 @@ mysql:
 branches:
   only:
     - master
-    - /^feature\/.*$/
+    - /^(feature|release)\/.*$/
 
 install:
   - sudo apt-get update > /dev/null
